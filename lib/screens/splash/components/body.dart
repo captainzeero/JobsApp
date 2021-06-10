@@ -14,14 +14,19 @@ class _BodyState extends State<Body> {
   int currentPage = 0;
   List<Map<String, String>> splashData = [
     {
-      "text": "Wecome to Ohh Wow Store, Let's shop!",
-      "image": "assets/images/splash_1.png"
+      "text": "A good Tagline",
+      "image": "assets/images/james-kovin-qqLxF3M-MA8-unsplash.png"
     },
     {
-      "text": "We help people connect with the stores \nin and around Kannur",
-      "image": "assets/images/splash_2.png"
+      "text":
+          "Some instructions and intro perhaps..................................",
+      "image": "assets/images/henry-co-3coKbdfnAFg-unsplash.jpg"
     },
-    {"text": "Stay at home and shop", "image": "assets/images/splash_3.png"},
+    {
+      "text":
+          "Making your daily needs on your fingertips \n........................................",
+      "image": "assets/images/boris-debusscher-9Rtp9uvTs3Q-unsplash.jpg"
+    },
   ];
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_app/components/no_account_text.dart';
-import 'package:shopping_app/components/social_card.dart';
 import 'package:shopping_app/screens/sign_in/components/sign_form.dart';
 
 import 'package:shopping_app/size_config.dart';
@@ -27,31 +25,13 @@ class Body extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Sign in with your email and pasword \nor continue with social media",
+                  "Please enter your mobile number",
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: SizeConfig.screenHeight * 0.08),
                 SignForm(),
                 SizedBox(height: SizeConfig.screenHeight * 0.08),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    SocialCard(
-                      icon: "assets/icons/google-icon.svg",
-                      press: () {},
-                    ),
-                    SocialCard(
-                      icon: "assets/icons/facebook-2.svg",
-                      press: () {},
-                    ),
-                    SocialCard(
-                      icon: "assets/icons/twitter.svg",
-                      press: () {},
-                    ),
-                  ],
-                ),
                 SizedBox(height: getProportionateScreenHeight(20)),
-                NoAccountText(),
               ],
             ),
           ),
